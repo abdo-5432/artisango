@@ -1,110 +1,43 @@
 name: artisango
-description: ArtisanGo - A modern marketplace connecting customers with local artisans in Morocco.
+description: A Flutter app to connect clients with local artisans.
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
-  flutter: '>=3.10.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
-
-  # Firebase
-  firebase_core: ^2.24.0
-  firebase_auth: ^4.14.0
-  cloud_firestore: ^4.14.0
-  firebase_storage: ^11.5.0
-  firebase_messaging: ^14.6.0
-  firebase_analytics: ^10.7.0
-
-  # State Management
-  riverpod: ^3.0.3
-  flutter_riverpod: ^3.0.3
-  riverpod_generator: ^3.0.0
-
-  # Routing
-  go_router: ^12.0.0
-
-  # Serialization
-  freezed_annotation: ^3.0.0
-  json_annotation: ^4.8.1
-  json_serializable: ^6.9.5
-
-  # HTTP and Networking
-  dio: ^5.3.0
-  http: ^1.1.0
-
-  # UI and Design
-  flutter_svg: ^2.0.0
-  shimmer: ^3.0.0
-  cached_network_image: ^3.3.0
-  google_maps_flutter: ^2.5.0
-  geolocator: ^9.0.2
-  geocoding: ^2.1.0
-
-  # Images and Media
-  image_picker: ^1.0.2
-  image_cropper: ^5.0.0
-  video_player: ^2.7.0
-
-  # Notifications
-  flutter_local_notifications: ^14.1.0
-
-  # Authentication
-  google_sign_in: ^6.1.0
-  sign_in_with_apple: ^5.0.0
-
-  # Localization
-  intl: ^0.20.2
-
-  # Utilities
-  uuid: ^4.0.0
-  equatable: ^2.0.5
-  dartz: ^0.10.1
-  get_it: ^7.6.0
-  logger: ^2.2.0
-  connectivity_plus: ^5.0.0
-  shared_preferences: ^2.2.0
-  package_info_plus: ^8.0.0
-  url_launcher: ^6.1.0
-  permission_handler: ^11.4.0
-  flutter_dotenv: ^5.1.0
-  fl_chart: ^0.64.0
-  lottie: ^2.6.0
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  image_picker: ^1.1.2
+  provider: ^6.1.2
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+  shared_preferences: ^2.3.2
+  http: ^1.2.0
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+  url_launcher: ^6.3.1
+  share_plus: ^10.1.0
+  in_app_review: ^2.0.0
+  easy_localization: ^3.0.7
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
-  build_runner: ^2.7.0
-  freezed: ^3.0.0
-  mockito: ^5.4.0
-  mocktail: ^1.0.0
-  bloc_test: ^10.0.0
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1   # ✅ package for changing app icon
+
+flutter_launcher_icons:              # ✅ configuration at root level (not inside dev_dependencies)
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
 
 flutter:
   uses-material-design: true
-
   assets:
-    - assets/images/
-    - assets/icons/
-    - assets/animations/
-    - assets/fonts/
-    - .env
-
-  fonts:
-    - family: Poppins
-      fonts:
-        - asset: assets/fonts/Poppins-Regular.ttf
-        - asset: assets/fonts/Poppins-Bold.ttf
-          weight: 700
-        - asset: assets/fonts/Poppins-SemiBold.ttf
-          weight: 600
-        - asset: assets/fonts/Poppins-Medium.ttf
-          weight: 500
-        - asset: assets/fonts/Poppins-Light.ttf
-          weight: 300
+    - assets/translations/

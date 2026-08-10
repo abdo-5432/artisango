@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "623201661056",
+    "project_id": "craftly2026",
+    "storage_bucket": "craftly2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623201661056:android:6f84047cd85d4f858b7665",
+        "android_client_info": {
+          "package_name": "com.example.artisan_go"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcozUbrijQJq-8BePIR25We3OMlPgdvr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623201661056:android:656132d370a352848b7665",
+        "android_client_info": {
+          "package_name": "com.example.craftly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcozUbrijQJq-8BePIR25We3OMlPgdvr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
