@@ -4,6 +4,13 @@ ArtisanGo is a Flutter mobile application designed to connect customers with loc
 
 The application allows users to discover artisans and their services, view ratings and reviews, save favorites, share services, and contact artisans directly through WhatsApp.
 
+## Getting Started
+
+For complete installation and setup instructions, see:
+
+**[Installation Guide](docs/INSTALLATION.md)**
+
+
 ## Features
 
 - User registration and authentication
