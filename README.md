@@ -31,32 +31,42 @@ The application allows users to discover artisans and their services, view ratin
 
 ### Authentication
 
-![Login](screenshots/login.png.jpg)
-![Register](screenshots/register.png.jpg)
+<p align="center">
+  <img src="screenshots/login.png.jpg" width="250">
+  <img src="screenshots/register.png.jpg" width="250">
+</p>
 
 ### Home and Search
 
-![Home](screenshots/home.png.jpg)
-![Search](screenshots/search.png.jpg)
+<p align="center">
+  <img src="screenshots/home.png.jpg" width="250">
+  <img src="screenshots/search.png.jpg" width="250">
+</p>
 
 ### Service Management
 
-![Add Service](screenshots/add_product.png.jpg)
-![Service Details](screenshots/product_detail.png.jpg)
-![Review](screenshots/review.png.jpg)
+<p align="center">
+  <img src="screenshots/add_product.png.jpg" width="250">
+  <img src="screenshots/product_detail.png.jpg" width="250">
+  <img src="screenshots/review.png.jpg" width="250">
+</p>
 
 ### User Features
 
-![Profile](screenshots/profile.png.jpg)
-![Edit Profile](screenshots/edit_profile.png.jpg)
-![Favorites](screenshots/favorites.png.jpg)
-![Near Me](screenshots/near_me.png.jpg)
+<p align="center">
+  <img src="screenshots/profile.png.jpg" width="250">
+  <img src="screenshots/edit_profile.png.jpg" width="250">
+  <img src="screenshots/favorites.png.jpg" width="250">
+</p>
 
 ### Additional Features
 
-![Location](screenshots/location.png.jpg)
-![Dark Mode](screenshots/dark_mode.png.jpg)
-![French Version](screenshots/french.png.jpg)
+<p align="center">
+  <img src="screenshots/near_me.png.jpg" width="250">
+  <img src="screenshots/location.png.jpg" width="250">
+  <img src="screenshots/dark_mode.png.jpg" width="250">
+  <img src="screenshots/french.png.jpg" width="250">
+</p>
 
 ## Project Structure
 
